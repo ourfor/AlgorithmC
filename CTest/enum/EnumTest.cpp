@@ -58,3 +58,51 @@ int mainReverseEqual() {
     }
     return 0;
 }
+
+
+/// @link 输出高度为h, 上底边为h, 每行多一个*的梯形
+int mainPrintRectangle() {
+    int h;
+    while (scanf("%d", &h) != EOF) {
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < h - i; j++) {
+                printf(" ");
+            }
+            
+            for (int j = 0; j < h + i; j++) {
+                printf("*");
+            }
+            
+            printf("/n");
+        }
+    }
+    return 0;
+}
+
+int isLeapYear(int year) {
+    if ((year % 4 == 0 && year % 100 != 0) ||
+        (year % 400 == 0)) {
+        return 1;
+    }
+    return 0;
+}
+
+int mainTodayOfThisYearDate() {
+    int months[13] = {
+        0,
+        31, 28, 31, 30, 31, 30,
+        31, 31, 30, 31, 30, 31
+    };
+    int year, month, day;
+    while (scanf("%d %d %d", &year, &month, &day) != EOF) {
+        months[2] = isLeapYear(year) ? 29 : 28;
+        int date = 0;
+        for (int i = 1; i < month; i++) {
+            date += months[i];
+        }
+        
+        date += day;
+        printf("%d\n", date);
+    }
+    return 0;
+}
