@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		88DEE422295BCE4A00745690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE421295BCE4A00745690 /* main.cpp */; };
+		88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE429295BCE6300745690 /* CaseInput.cpp */; };
+		88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE42D295BE34800745690 /* EnumTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEE421295BCE4A00745690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		88DEE429295BCE6300745690 /* CaseInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseInput.cpp; sourceTree = "<group>"; };
+		88DEE42A295BCE6300745690 /* CaseInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CaseInput.hpp; sourceTree = "<group>"; };
+		88DEE42D295BE34800745690 /* EnumTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnumTest.cpp; sourceTree = "<group>"; };
+		88DEE42E295BE34800745690 /* EnumTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnumTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,29 @@
 		88DEE420295BCE4A00745690 /* CTest */ = {
 			isa = PBXGroup;
 			children = (
+				88DEE42C295BE31F00745690 /* enum */,
+				88DEE428295BCE5000745690 /* input */,
 				88DEE421295BCE4A00745690 /* main.cpp */,
 			);
 			path = CTest;
+			sourceTree = "<group>";
+		};
+		88DEE428295BCE5000745690 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				88DEE429295BCE6300745690 /* CaseInput.cpp */,
+				88DEE42A295BCE6300745690 /* CaseInput.hpp */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		88DEE42C295BE31F00745690 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				88DEE42D295BE34800745690 /* EnumTest.cpp */,
+				88DEE42E295BE34800745690 /* EnumTest.hpp */,
+			);
+			path = enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
+				88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
