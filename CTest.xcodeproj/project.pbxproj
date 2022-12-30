@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */; };
+		88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A03AD2295D2AE2006DDE34 /* SortTest.cpp */; };
 		88DEE422295BCE4A00745690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE421295BCE4A00745690 /* main.cpp */; };
 		88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE429295BCE6300745690 /* CaseInput.cpp */; };
 		88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE42D295BE34800745690 /* EnumTest.cpp */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringTest.cpp; sourceTree = "<group>"; };
+		8871AE7B295E6AE400F9D6C9 /* StringTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringTest.hpp; sourceTree = "<group>"; };
+		88A03AD2295D2AE2006DDE34 /* SortTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTest.cpp; sourceTree = "<group>"; };
+		88A03AD3295D2AE2006DDE34 /* SortTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortTest.hpp; sourceTree = "<group>"; };
 		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEE421295BCE4A00745690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88DEE429295BCE6300745690 /* CaseInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseInput.cpp; sourceTree = "<group>"; };
@@ -44,6 +50,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8871AE79295E6AD400F9D6C9 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */,
+				8871AE7B295E6AE400F9D6C9 /* StringTest.hpp */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
+		8871AE7D295E7D8B00F9D6C9 /* list */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		88A03AD1295D2ACE006DDE34 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				88A03AD2295D2AE2006DDE34 /* SortTest.cpp */,
+				88A03AD3295D2AE2006DDE34 /* SortTest.hpp */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 		88DEE415295BCE4A00745690 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +94,9 @@
 		88DEE420295BCE4A00745690 /* CTest */ = {
 			isa = PBXGroup;
 			children = (
+				8871AE7D295E7D8B00F9D6C9 /* list */,
+				8871AE79295E6AD400F9D6C9 /* string */,
+				88A03AD1295D2ACE006DDE34 /* sort */,
 				88DEE42C295BE31F00745690 /* enum */,
 				88DEE428295BCE5000745690 /* input */,
 				88DEE421295BCE4A00745690 /* main.cpp */,
@@ -146,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */,
+				88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
+				8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */,
 				88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
