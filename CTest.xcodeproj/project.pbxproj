@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884C4A26295FD0D900E33559 /* StackTest.cpp */; };
+		884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884C4A2B295FDC8700E33559 /* MathTest.cpp */; };
 		8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */; };
+		8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */; };
+		8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE81295E81C800F9D6C9 /* QueueTest.cpp */; };
 		88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A03AD2295D2AE2006DDE34 /* SortTest.cpp */; };
 		88DEE422295BCE4A00745690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE421295BCE4A00745690 /* main.cpp */; };
 		88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE429295BCE6300745690 /* CaseInput.cpp */; };
@@ -27,8 +31,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		884C4A26295FD0D900E33559 /* StackTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackTest.cpp; sourceTree = "<group>"; };
+		884C4A27295FD0D900E33559 /* StackTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackTest.hpp; sourceTree = "<group>"; };
+		884C4A2A295FDC2C00E33559 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		884C4A2B295FDC8700E33559 /* MathTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MathTest.cpp; sourceTree = "<group>"; };
+		884C4A2C295FDC8700E33559 /* MathTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MathTest.hpp; sourceTree = "<group>"; };
 		8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringTest.cpp; sourceTree = "<group>"; };
 		8871AE7B295E6AE400F9D6C9 /* StringTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringTest.hpp; sourceTree = "<group>"; };
+		8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
+		8871AE7F295E7EED00F9D6C9 /* VectorTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorTest.hpp; sourceTree = "<group>"; };
+		8871AE81295E81C800F9D6C9 /* QueueTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest.cpp; sourceTree = "<group>"; };
+		8871AE82295E81C800F9D6C9 /* QueueTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTest.hpp; sourceTree = "<group>"; };
 		88A03AD2295D2AE2006DDE34 /* SortTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTest.cpp; sourceTree = "<group>"; };
 		88A03AD3295D2AE2006DDE34 /* SortTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortTest.hpp; sourceTree = "<group>"; };
 		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884C4A29295FDC0500E33559 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				884C4A2A295FDC2C00E33559 /* README.md */,
+				884C4A2B295FDC8700E33559 /* MathTest.cpp */,
+				884C4A2C295FDC8700E33559 /* MathTest.hpp */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
 		8871AE79295E6AD400F9D6C9 /* string */ = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +85,12 @@
 		8871AE7D295E7D8B00F9D6C9 /* list */ = {
 			isa = PBXGroup;
 			children = (
+				8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */,
+				8871AE7F295E7EED00F9D6C9 /* VectorTest.hpp */,
+				8871AE81295E81C800F9D6C9 /* QueueTest.cpp */,
+				8871AE82295E81C800F9D6C9 /* QueueTest.hpp */,
+				884C4A26295FD0D900E33559 /* StackTest.cpp */,
+				884C4A27295FD0D900E33559 /* StackTest.hpp */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -94,6 +123,7 @@
 		88DEE420295BCE4A00745690 /* CTest */ = {
 			isa = PBXGroup;
 			children = (
+				884C4A29295FDC0500E33559 /* math */,
 				8871AE7D295E7D8B00F9D6C9 /* list */,
 				8871AE79295E6AD400F9D6C9 /* string */,
 				88A03AD1295D2ACE006DDE34 /* sort */,
@@ -180,9 +210,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */,
+				8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */,
 				88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */,
+				8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */,
+				884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
 				8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */,
+				884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */,
 				88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
