@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		880038BB296E532800FE6549 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880038B9296E532800FE6549 /* QueueTest.cpp */; };
 		88260A00296112AD00EF6934 /* PowerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 882609FE296112AD00EF6934 /* PowerTest.cpp */; };
 		88260A03296119FC00EF6934 /* MatrixTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88260A01296119FC00EF6934 /* MatrixTest.cpp */; };
 		88260A062961259700EF6934 /* BigIntTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88260A042961259700EF6934 /* BigIntTest.cpp */; };
 		884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884C4A26295FD0D900E33559 /* StackTest.cpp */; };
 		884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 884C4A2B295FDC8700E33559 /* MathTest.cpp */; };
+		88649B2E2963B16400B50ACC /* RecursionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88649B2C2963B16400B50ACC /* RecursionTest.cpp */; };
+		88649B322963BFCE00B50ACC /* SearchTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88649B302963BFCE00B50ACC /* SearchTest.cpp */; };
 		8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */; };
 		8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */; };
 		8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE81295E81C800F9D6C9 /* QueueTest.cpp */; };
+		8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8872D5E4296A693100B15D13 /* TreeTest.cpp */; };
 		88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A03AD2295D2AE2006DDE34 /* SortTest.cpp */; };
+		88ACB7EF297102C700F9A1C0 /* GraphTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */; };
 		88DEE422295BCE4A00745690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE421295BCE4A00745690 /* main.cpp */; };
 		88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE429295BCE6300745690 /* CaseInput.cpp */; };
 		88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE42D295BE34800745690 /* EnumTest.cpp */; };
+		88EDD993296FAFB800832300 /* MapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EDD991296FAFB800832300 /* MapTest.cpp */; };
+		88FE852A29625B0600333CBD /* GreedyTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FE852829625B0600333CBD /* GreedyTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		880038B9296E532800FE6549 /* QueueTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest.cpp; sourceTree = "<group>"; };
+		880038BA296E532800FE6549 /* QueueTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTest.hpp; sourceTree = "<group>"; };
 		882609FE296112AD00EF6934 /* PowerTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerTest.cpp; sourceTree = "<group>"; };
 		882609FF296112AD00EF6934 /* PowerTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerTest.hpp; sourceTree = "<group>"; };
 		88260A01296119FC00EF6934 /* MatrixTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixTest.cpp; sourceTree = "<group>"; };
@@ -45,20 +54,33 @@
 		884C4A2A295FDC2C00E33559 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		884C4A2B295FDC8700E33559 /* MathTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MathTest.cpp; sourceTree = "<group>"; };
 		884C4A2C295FDC8700E33559 /* MathTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MathTest.hpp; sourceTree = "<group>"; };
+		88649B2A2963ADD200B50ACC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88649B2C2963B16400B50ACC /* RecursionTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTest.cpp; sourceTree = "<group>"; };
+		88649B2D2963B16400B50ACC /* RecursionTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTest.hpp; sourceTree = "<group>"; };
+		88649B302963BFCE00B50ACC /* SearchTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchTest.cpp; sourceTree = "<group>"; };
+		88649B312963BFCE00B50ACC /* SearchTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchTest.hpp; sourceTree = "<group>"; };
 		8871AE7A295E6AE400F9D6C9 /* StringTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringTest.cpp; sourceTree = "<group>"; };
 		8871AE7B295E6AE400F9D6C9 /* StringTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringTest.hpp; sourceTree = "<group>"; };
 		8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTest.cpp; sourceTree = "<group>"; };
 		8871AE7F295E7EED00F9D6C9 /* VectorTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VectorTest.hpp; sourceTree = "<group>"; };
 		8871AE81295E81C800F9D6C9 /* QueueTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest.cpp; sourceTree = "<group>"; };
 		8871AE82295E81C800F9D6C9 /* QueueTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTest.hpp; sourceTree = "<group>"; };
+		8872D5E4296A693100B15D13 /* TreeTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTest.cpp; sourceTree = "<group>"; };
+		8872D5E5296A693100B15D13 /* TreeTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeTest.hpp; sourceTree = "<group>"; };
 		88A03AD2295D2AE2006DDE34 /* SortTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTest.cpp; sourceTree = "<group>"; };
 		88A03AD3295D2AE2006DDE34 /* SortTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortTest.hpp; sourceTree = "<group>"; };
+		88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTest.cpp; sourceTree = "<group>"; };
+		88ACB7EE297102C700F9A1C0 /* GraphTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTest.hpp; sourceTree = "<group>"; };
 		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEE421295BCE4A00745690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88DEE429295BCE6300745690 /* CaseInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseInput.cpp; sourceTree = "<group>"; };
 		88DEE42A295BCE6300745690 /* CaseInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CaseInput.hpp; sourceTree = "<group>"; };
 		88DEE42D295BE34800745690 /* EnumTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnumTest.cpp; sourceTree = "<group>"; };
 		88DEE42E295BE34800745690 /* EnumTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnumTest.hpp; sourceTree = "<group>"; };
+		88EDD991296FAFB800832300 /* MapTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapTest.cpp; sourceTree = "<group>"; };
+		88EDD992296FAFB800832300 /* MapTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MapTest.hpp; sourceTree = "<group>"; };
+		88FE852829625B0600333CBD /* GreedyTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreedyTest.cpp; sourceTree = "<group>"; };
+		88FE852929625B0600333CBD /* GreedyTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreedyTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		880038B8296E531A00FE6549 /* queue */ = {
+			isa = PBXGroup;
+			children = (
+				880038B9296E532800FE6549 /* QueueTest.cpp */,
+				880038BA296E532800FE6549 /* QueueTest.hpp */,
+			);
+			path = queue;
+			sourceTree = "<group>";
+		};
 		884C4A29295FDC0500E33559 /* math */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +117,24 @@
 				88260A052961259700EF6934 /* BigIntTest.hpp */,
 			);
 			path = math;
+			sourceTree = "<group>";
+		};
+		88649B2B2963B11100B50ACC /* recursion */ = {
+			isa = PBXGroup;
+			children = (
+				88649B2C2963B16400B50ACC /* RecursionTest.cpp */,
+				88649B2D2963B16400B50ACC /* RecursionTest.hpp */,
+			);
+			path = recursion;
+			sourceTree = "<group>";
+		};
+		88649B2F2963BFBD00B50ACC /* search */ = {
+			isa = PBXGroup;
+			children = (
+				88649B302963BFCE00B50ACC /* SearchTest.cpp */,
+				88649B312963BFCE00B50ACC /* SearchTest.hpp */,
+			);
+			path = search;
 			sourceTree = "<group>";
 		};
 		8871AE79295E6AD400F9D6C9 /* string */ = {
@@ -110,6 +159,15 @@
 			path = list;
 			sourceTree = "<group>";
 		};
+		8872D5E3296A692300B15D13 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				8872D5E4296A693100B15D13 /* TreeTest.cpp */,
+				8872D5E5296A693100B15D13 /* TreeTest.hpp */,
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
 		88A03AD1295D2ACE006DDE34 /* sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +175,15 @@
 				88A03AD3295D2AE2006DDE34 /* SortTest.hpp */,
 			);
 			path = sort;
+			sourceTree = "<group>";
+		};
+		88ACB7EC297102B800F9A1C0 /* graph */ = {
+			isa = PBXGroup;
+			children = (
+				88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */,
+				88ACB7EE297102C700F9A1C0 /* GraphTest.hpp */,
+			);
+			path = graph;
 			sourceTree = "<group>";
 		};
 		88DEE415295BCE4A00745690 = {
@@ -138,6 +205,13 @@
 		88DEE420295BCE4A00745690 /* CTest */ = {
 			isa = PBXGroup;
 			children = (
+				88ACB7EC297102B800F9A1C0 /* graph */,
+				88EDD990296FAFAD00832300 /* map */,
+				880038B8296E531A00FE6549 /* queue */,
+				8872D5E3296A692300B15D13 /* tree */,
+				88649B2F2963BFBD00B50ACC /* search */,
+				88649B2B2963B11100B50ACC /* recursion */,
+				88FE852729625AEC00333CBD /* greedy */,
 				884C4A29295FDC0500E33559 /* math */,
 				8871AE7D295E7D8B00F9D6C9 /* list */,
 				8871AE79295E6AD400F9D6C9 /* string */,
@@ -165,6 +239,25 @@
 				88DEE42E295BE34800745690 /* EnumTest.hpp */,
 			);
 			path = enum;
+			sourceTree = "<group>";
+		};
+		88EDD990296FAFAD00832300 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				88EDD991296FAFB800832300 /* MapTest.cpp */,
+				88EDD992296FAFB800832300 /* MapTest.hpp */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		88FE852729625AEC00333CBD /* greedy */ = {
+			isa = PBXGroup;
+			children = (
+				88FE852829625B0600333CBD /* GreedyTest.cpp */,
+				88FE852929625B0600333CBD /* GreedyTest.hpp */,
+				88649B2A2963ADD200B50ACC /* README.md */,
+			);
+			path = greedy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,16 +318,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */,
+				88FE852A29625B0600333CBD /* GreedyTest.cpp in Sources */,
 				8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */,
 				88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */,
 				88260A03296119FC00EF6934 /* MatrixTest.cpp in Sources */,
 				8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */,
+				88EDD993296FAFB800832300 /* MapTest.cpp in Sources */,
 				884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */,
+				880038BB296E532800FE6549 /* QueueTest.cpp in Sources */,
 				88260A00296112AD00EF6934 /* PowerTest.cpp in Sources */,
+				88649B322963BFCE00B50ACC /* SearchTest.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
 				88260A062961259700EF6934 /* BigIntTest.cpp in Sources */,
 				8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */,
 				884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */,
+				8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */,
+				88ACB7EF297102C700F9A1C0 /* GraphTest.cpp in Sources */,
+				88649B2E2963B16400B50ACC /* RecursionTest.cpp in Sources */,
 				88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

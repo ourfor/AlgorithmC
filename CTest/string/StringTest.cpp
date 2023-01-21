@@ -107,3 +107,27 @@ int mainStringMatch() {
     
     return 0;
 }
+
+/// 首字母大写
+/// @link https://www.nowcoder.com/practice/91f9c70e7b6f4c0ab23744055632467a
+void mainFirstChar2Upper() {
+    std::string line = "";
+    while (getline(std::cin, line)) {
+        int size = (int)line.size();
+        char prev = ' ', curr = ' ';
+        for (int i = 0; i < size; i++) {
+            curr = line[i];
+            bool isBlankChar = (
+                prev == ' ' ||
+                prev == '\t' ||
+                prev == '\n' ||
+                prev == '\r'
+             );
+            if (isBlankChar && curr >= 'a' && curr <= 'z') {
+                line[i] += 'A' - 'a';
+            }
+            prev = curr;
+        }
+        std::cout << line;
+    }
+}
