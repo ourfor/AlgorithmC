@@ -7,53 +7,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
          <BreakpointContent
-            uuid = "7EB6C13E-6F1B-45B8-81B1-771268F716E7"
+            uuid = "5F6AE649-0CAE-4E5C-82A9-35ABBEBEE12A"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            symbolName = "WCDB::Handle::setCipherKey"
+            symbolName = "-[NSUserDefaults boolForKey:]"
             moduleName = "">
             <Locations>
                <Location
-                  uuid = "7EB6C13E-6F1B-45B8-81B1-771268F716E7 - 78e2185024e6bc3f"
+                  uuid = "5F6AE649-0CAE-4E5C-82A9-35ABBEBEE12A - 431b363f441cef88"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WCDB::Handle::setCipherKey(void const*, int)"
-                  moduleName = "WCDB"
-                  usesParentBreakpointCondition = "Yes"
-                  offsetFromSymbolStart = "0">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
-         <BreakpointContent
-            uuid = "96F29A42-BB0E-41E4-B41D-831DB41F4A83"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            symbolName = "WCDB::Database"
-            moduleName = "">
-            <Locations>
-               <Location
-                  uuid = "96F29A42-BB0E-41E4-B41D-831DB41F4A83 - 71c1e4d33e1eb519"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WCDB::Database::Database(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;)"
-                  moduleName = "WCDB"
-                  usesParentBreakpointCondition = "Yes"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "96F29A42-BB0E-41E4-B41D-831DB41F4A83 - 71c1e4d33e1eb519"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WCDB::Database::Database(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;)"
-                  moduleName = "WCDB"
+                  symbolName = "-[NSUserDefaults(NSUserDefaults) boolForKey:]"
+                  moduleName = "Foundation"
                   usesParentBreakpointCondition = "Yes"
                   offsetFromSymbolStart = "0">
                </Location>

@@ -8,6 +8,7 @@
 #include "GraphTest.hpp"
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 typedef struct Set {
     int root[1000];
@@ -123,4 +124,122 @@ void mainMinimalTree() {
 
 
 /// 最短路径
-/// @link 
+/// @link
+
+typedef struct GraphEdge {
+    int from;
+    int to;
+    int weight;
+    
+    friend std::istream& operator>>(std::istream& in, GraphEdge& edge) {
+        in >> edge.from >> edge.to >> edge.weight;
+        return in;
+    }
+    
+    GraphEdge reverse() {
+        GraphEdge edge = {
+            .from = to,
+            .to = from,
+            .weight = weight
+        };
+        return edge;
+    }
+} GraphEdge;
+
+void shortestPath(int start, int n) {
+    /**
+     * do not use in product environment
+     * just use in test
+     */
+#define GRAPH_MAX_NODES 200
+    const int INF = INT_MAX;
+    std::vector<GraphEdge> Graph[GRAPH_MAX_NODES];
+    bool visited[GRAPH_MAX_NODES];
+    int distance[GRAPH_MAX_NODES];
+    
+    
+    memset(visited, false, GRAPH_MAX_NODES * sizeof(bool));
+    std::fill(distance, distance + GRAPH_MAX_NODES, INF);
+    distance[start] = 0;
+    for (int i = 0; i < n; i++) {
+        int from = -1;
+        for (int j = 0; j < n; j++) {
+            if (visited[i]) {
+                continue;
+            }
+            
+            if (from == -1 || distance[from] > distance[j]) {
+                from = j;
+            }
+        }
+        
+        visited[from] = true;
+        
+        std::vector<GraphEdge> edges = Graph[from];
+        int size = (int)edges.size();
+        for (int i = 0; i < size; i++) {
+            GraphEdge edge = edges[i];
+            if (distance[edge.from] + edge.weight < distance[edge.to]) {
+                distance[edge.to] = distance[edge.from] + edge.weight;
+            }
+        }
+        
+    }
+}
+
+/// 拓扑排序 (确定比赛名次)
+/// @link hdu 1285
+void TopoLogicalSort() {
+#define MAXN 10
+    std::vector<int> table[MAXN];
+    int n = 0, i = 0, j = 0;
+    std::cin >> n;
+    while (std::cin >> i >> j) {
+        table[i].push_back(j);
+    }
+    
+    int indegree[MAXN];
+    bool visited[MAXN];
+    std::fill(indegree, indegree + MAXN, 0);
+    std::fill(visited, visited + MAXN, false);
+    for (int i = 0; i < n; i++) {
+        std::vector<int> edges = table[i];
+        int size = (int)edges.size();
+        for (int j = 0; j < size; j++) {
+            indegree[edges[i]]++;
+        }
+    }
+    
+    int visitedCount = 0;
+    std::vector<int> order;
+    for (int i = 0; i < n; i++) {
+        int start = -1;
+        for (int j = 0; j < n; j++) {
+            if (indegree[j] == 0 && !visited[j]) {
+                start = j;
+                order.push_back(start);
+                visitedCount++;
+            }
+        }
+        
+        if (start == -1 && visitedCount != n) {
+            
+        }
+        
+        std::vector<int> edges = table[start];
+        int size = (int)edges.size();
+        for (int j = 0; j < size; j++) {
+            indegree[edges[j]]--;
+        }
+    }
+    
+    int size = (int)order.size();
+    for (int i = 0; i < size; i++) {
+        std::cout << order[i] << " ";
+    }
+}
+
+
+/// 关键路径
+/// @link
+
