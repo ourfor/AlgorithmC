@@ -5,7 +5,7 @@
 //  Created by 梁甜 on 2022/12/28.
 //
 
-#include "GraphTest.hpp"
+#include "DPTest.hpp"
 
 /// 牛客网考研专区
 /// @link https://www.nowcoder.com/ta/kaoyan
@@ -16,6 +16,6 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    mainMinimalTree();
+    mainBuyFood();
     return 0;
 }

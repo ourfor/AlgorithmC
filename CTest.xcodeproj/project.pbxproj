@@ -21,10 +21,16 @@
 		8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8872D5E4296A693100B15D13 /* TreeTest.cpp */; };
 		88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A03AD2295D2AE2006DDE34 /* SortTest.cpp */; };
 		88ACB7EF297102C700F9A1C0 /* GraphTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */; };
+		88D31C56298B444500A131BA /* DPTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88D31C54298B444500A131BA /* DPTest.cpp */; };
 		88DEE422295BCE4A00745690 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE421295BCE4A00745690 /* main.cpp */; };
 		88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE429295BCE6300745690 /* CaseInput.cpp */; };
 		88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88DEE42D295BE34800745690 /* EnumTest.cpp */; };
 		88EDD993296FAFB800832300 /* MapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88EDD991296FAFB800832300 /* MapTest.cpp */; };
+		88F2A01629971E5B00394274 /* PrintRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A01429971E5B00394274 /* PrintRectangle.cpp */; };
+		88F2A019299726BB00394274 /* MultiBag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A017299726BB00394274 /* MultiBag.cpp */; };
+		88F2A01C2997363000394274 /* RepeatNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A01A2997363000394274 /* RepeatNumber.cpp */; };
+		88F2A01F29973C0000394274 /* ReplaceWhiteSpaceChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A01D29973C0000394274 /* ReplaceWhiteSpaceChar.cpp */; };
+		88F2A02229973CF200394274 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A02029973CF200394274 /* Fibonacci.cpp */; };
 		88FE852A29625B0600333CBD /* GreedyTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FE852829625B0600333CBD /* GreedyTest.cpp */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +77,8 @@
 		88A03AD3295D2AE2006DDE34 /* SortTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortTest.hpp; sourceTree = "<group>"; };
 		88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTest.cpp; sourceTree = "<group>"; };
 		88ACB7EE297102C700F9A1C0 /* GraphTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTest.hpp; sourceTree = "<group>"; };
+		88D31C54298B444500A131BA /* DPTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DPTest.cpp; sourceTree = "<group>"; };
+		88D31C55298B444500A131BA /* DPTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DPTest.hpp; sourceTree = "<group>"; };
 		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEE421295BCE4A00745690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88DEE429295BCE6300745690 /* CaseInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseInput.cpp; sourceTree = "<group>"; };
@@ -79,6 +87,16 @@
 		88DEE42E295BE34800745690 /* EnumTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnumTest.hpp; sourceTree = "<group>"; };
 		88EDD991296FAFB800832300 /* MapTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MapTest.cpp; sourceTree = "<group>"; };
 		88EDD992296FAFB800832300 /* MapTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MapTest.hpp; sourceTree = "<group>"; };
+		88F2A01429971E5B00394274 /* PrintRectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintRectangle.cpp; sourceTree = "<group>"; };
+		88F2A01529971E5B00394274 /* PrintRectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintRectangle.hpp; sourceTree = "<group>"; };
+		88F2A017299726BB00394274 /* MultiBag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultiBag.cpp; sourceTree = "<group>"; };
+		88F2A018299726BB00394274 /* MultiBag.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MultiBag.hpp; sourceTree = "<group>"; };
+		88F2A01A2997363000394274 /* RepeatNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatNumber.cpp; sourceTree = "<group>"; };
+		88F2A01B2997363000394274 /* RepeatNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RepeatNumber.hpp; sourceTree = "<group>"; };
+		88F2A01D29973C0000394274 /* ReplaceWhiteSpaceChar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceWhiteSpaceChar.cpp; sourceTree = "<group>"; };
+		88F2A01E29973C0000394274 /* ReplaceWhiteSpaceChar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReplaceWhiteSpaceChar.hpp; sourceTree = "<group>"; };
+		88F2A02029973CF200394274 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		88F2A02129973CF200394274 /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
 		88FE852829625B0600333CBD /* GreedyTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreedyTest.cpp; sourceTree = "<group>"; };
 		88FE852929625B0600333CBD /* GreedyTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreedyTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,6 +204,15 @@
 			path = graph;
 			sourceTree = "<group>";
 		};
+		88D31C53298B442700A131BA /* dp */ = {
+			isa = PBXGroup;
+			children = (
+				88D31C54298B444500A131BA /* DPTest.cpp */,
+				88D31C55298B444500A131BA /* DPTest.hpp */,
+			);
+			path = dp;
+			sourceTree = "<group>";
+		};
 		88DEE415295BCE4A00745690 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +232,8 @@
 		88DEE420295BCE4A00745690 /* CTest */ = {
 			isa = PBXGroup;
 			children = (
+				88F2A01329971E4600394274 /* problem */,
+				88D31C53298B442700A131BA /* dp */,
 				88ACB7EC297102B800F9A1C0 /* graph */,
 				88EDD990296FAFAD00832300 /* map */,
 				880038B8296E531A00FE6549 /* queue */,
@@ -248,6 +277,23 @@
 				88EDD992296FAFB800832300 /* MapTest.hpp */,
 			);
 			path = map;
+			sourceTree = "<group>";
+		};
+		88F2A01329971E4600394274 /* problem */ = {
+			isa = PBXGroup;
+			children = (
+				88F2A01429971E5B00394274 /* PrintRectangle.cpp */,
+				88F2A01529971E5B00394274 /* PrintRectangle.hpp */,
+				88F2A017299726BB00394274 /* MultiBag.cpp */,
+				88F2A018299726BB00394274 /* MultiBag.hpp */,
+				88F2A01A2997363000394274 /* RepeatNumber.cpp */,
+				88F2A01B2997363000394274 /* RepeatNumber.hpp */,
+				88F2A01D29973C0000394274 /* ReplaceWhiteSpaceChar.cpp */,
+				88F2A01E29973C0000394274 /* ReplaceWhiteSpaceChar.hpp */,
+				88F2A02029973CF200394274 /* Fibonacci.cpp */,
+				88F2A02129973CF200394274 /* Fibonacci.hpp */,
+			);
+			path = problem;
 			sourceTree = "<group>";
 		};
 		88FE852729625AEC00333CBD /* greedy */ = {
@@ -317,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F2A01629971E5B00394274 /* PrintRectangle.cpp in Sources */,
 				88DEE42B295BCE6300745690 /* CaseInput.cpp in Sources */,
 				88FE852A29625B0600333CBD /* GreedyTest.cpp in Sources */,
 				8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */,
@@ -324,12 +371,17 @@
 				88260A03296119FC00EF6934 /* MatrixTest.cpp in Sources */,
 				8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */,
 				88EDD993296FAFB800832300 /* MapTest.cpp in Sources */,
+				88D31C56298B444500A131BA /* DPTest.cpp in Sources */,
 				884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */,
 				880038BB296E532800FE6549 /* QueueTest.cpp in Sources */,
 				88260A00296112AD00EF6934 /* PowerTest.cpp in Sources */,
 				88649B322963BFCE00B50ACC /* SearchTest.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
+				88F2A019299726BB00394274 /* MultiBag.cpp in Sources */,
 				88260A062961259700EF6934 /* BigIntTest.cpp in Sources */,
+				88F2A02229973CF200394274 /* Fibonacci.cpp in Sources */,
+				88F2A01C2997363000394274 /* RepeatNumber.cpp in Sources */,
+				88F2A01F29973C0000394274 /* ReplaceWhiteSpaceChar.cpp in Sources */,
 				8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */,
 				884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */,
 				8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */,
