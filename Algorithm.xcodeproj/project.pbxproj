@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		880038BB296E532800FE6549 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880038B9296E532800FE6549 /* QueueTest.cpp */; };
+		880913AE2998888000108391 /* MiniStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880913AC2998888000108391 /* MiniStack.cpp */; };
+		880913B12998945100108391 /* StackOperateSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880913AF2998945100108391 /* StackOperateSequence.cpp */; };
+		880913B429989A8300108391 /* TreeLevelOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 880913B229989A8300108391 /* TreeLevelOrder.cpp */; };
 		88260A00296112AD00EF6934 /* PowerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 882609FE296112AD00EF6934 /* PowerTest.cpp */; };
 		88260A03296119FC00EF6934 /* MatrixTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88260A01296119FC00EF6934 /* MatrixTest.cpp */; };
 		88260A062961259700EF6934 /* BigIntTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88260A042961259700EF6934 /* BigIntTest.cpp */; };
@@ -19,6 +22,9 @@
 		8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE7E295E7EED00F9D6C9 /* VectorTest.cpp */; };
 		8871AE83295E81C800F9D6C9 /* QueueTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8871AE81295E81C800F9D6C9 /* QueueTest.cpp */; };
 		8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8872D5E4296A693100B15D13 /* TreeTest.cpp */; };
+		888522F92999EBA900CB9D82 /* MergeSortedLinkList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888522F72999EBA900CB9D82 /* MergeSortedLinkList.cpp */; };
+		888522FC299BBC5400CB9D82 /* LinkListOperator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888522FA299BBC5400CB9D82 /* LinkListOperator.cpp */; };
+		888522FF299DF7BE00CB9D82 /* SingleNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 888522FD299DF7BE00CB9D82 /* SingleNumber.cpp */; };
 		88A03AD4295D2AE2006DDE34 /* SortTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88A03AD2295D2AE2006DDE34 /* SortTest.cpp */; };
 		88ACB7EF297102C700F9A1C0 /* GraphTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */; };
 		88D31C56298B444500A131BA /* DPTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88D31C54298B444500A131BA /* DPTest.cpp */; };
@@ -31,6 +37,7 @@
 		88F2A01C2997363000394274 /* RepeatNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A01A2997363000394274 /* RepeatNumber.cpp */; };
 		88F2A01F29973C0000394274 /* ReplaceWhiteSpaceChar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A01D29973C0000394274 /* ReplaceWhiteSpaceChar.cpp */; };
 		88F2A02229973CF200394274 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88F2A02029973CF200394274 /* Fibonacci.cpp */; };
+		88FE7BAA2997D4FA0020E79F /* ReadWriteFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FE7BA82997D4FA0020E79F /* ReadWriteFile.cpp */; };
 		88FE852A29625B0600333CBD /* GreedyTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88FE852829625B0600333CBD /* GreedyTest.cpp */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +56,12 @@
 /* Begin PBXFileReference section */
 		880038B9296E532800FE6549 /* QueueTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueTest.cpp; sourceTree = "<group>"; };
 		880038BA296E532800FE6549 /* QueueTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTest.hpp; sourceTree = "<group>"; };
+		880913AC2998888000108391 /* MiniStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MiniStack.cpp; sourceTree = "<group>"; };
+		880913AD2998888000108391 /* MiniStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MiniStack.hpp; sourceTree = "<group>"; };
+		880913AF2998945100108391 /* StackOperateSequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackOperateSequence.cpp; sourceTree = "<group>"; };
+		880913B02998945100108391 /* StackOperateSequence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackOperateSequence.hpp; sourceTree = "<group>"; };
+		880913B229989A8300108391 /* TreeLevelOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeLevelOrder.cpp; sourceTree = "<group>"; };
+		880913B329989A8300108391 /* TreeLevelOrder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeLevelOrder.hpp; sourceTree = "<group>"; };
 		882609FE296112AD00EF6934 /* PowerTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerTest.cpp; sourceTree = "<group>"; };
 		882609FF296112AD00EF6934 /* PowerTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PowerTest.hpp; sourceTree = "<group>"; };
 		88260A01296119FC00EF6934 /* MatrixTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixTest.cpp; sourceTree = "<group>"; };
@@ -73,13 +86,19 @@
 		8871AE82295E81C800F9D6C9 /* QueueTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueTest.hpp; sourceTree = "<group>"; };
 		8872D5E4296A693100B15D13 /* TreeTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTest.cpp; sourceTree = "<group>"; };
 		8872D5E5296A693100B15D13 /* TreeTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeTest.hpp; sourceTree = "<group>"; };
+		888522F72999EBA900CB9D82 /* MergeSortedLinkList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedLinkList.cpp; sourceTree = "<group>"; };
+		888522F82999EBA900CB9D82 /* MergeSortedLinkList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSortedLinkList.hpp; sourceTree = "<group>"; };
+		888522FA299BBC5400CB9D82 /* LinkListOperator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkListOperator.cpp; sourceTree = "<group>"; };
+		888522FB299BBC5400CB9D82 /* LinkListOperator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkListOperator.hpp; sourceTree = "<group>"; };
+		888522FD299DF7BE00CB9D82 /* SingleNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SingleNumber.cpp; sourceTree = "<group>"; };
+		888522FE299DF7BE00CB9D82 /* SingleNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SingleNumber.hpp; sourceTree = "<group>"; };
 		88A03AD2295D2AE2006DDE34 /* SortTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTest.cpp; sourceTree = "<group>"; };
 		88A03AD3295D2AE2006DDE34 /* SortTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SortTest.hpp; sourceTree = "<group>"; };
 		88ACB7ED297102C700F9A1C0 /* GraphTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTest.cpp; sourceTree = "<group>"; };
 		88ACB7EE297102C700F9A1C0 /* GraphTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTest.hpp; sourceTree = "<group>"; };
 		88D31C54298B444500A131BA /* DPTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DPTest.cpp; sourceTree = "<group>"; };
 		88D31C55298B444500A131BA /* DPTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DPTest.hpp; sourceTree = "<group>"; };
-		88DEE41E295BCE4A00745690 /* CTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DEE41E295BCE4A00745690 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		88DEE421295BCE4A00745690 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		88DEE429295BCE6300745690 /* CaseInput.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CaseInput.cpp; sourceTree = "<group>"; };
 		88DEE42A295BCE6300745690 /* CaseInput.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CaseInput.hpp; sourceTree = "<group>"; };
@@ -97,6 +116,8 @@
 		88F2A01E29973C0000394274 /* ReplaceWhiteSpaceChar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReplaceWhiteSpaceChar.hpp; sourceTree = "<group>"; };
 		88F2A02029973CF200394274 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
 		88F2A02129973CF200394274 /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
+		88FE7BA82997D4FA0020E79F /* ReadWriteFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReadWriteFile.cpp; sourceTree = "<group>"; };
+		88FE7BA92997D4FA0020E79F /* ReadWriteFile.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReadWriteFile.hpp; sourceTree = "<group>"; };
 		88FE852829625B0600333CBD /* GreedyTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GreedyTest.cpp; sourceTree = "<group>"; };
 		88FE852929625B0600333CBD /* GreedyTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GreedyTest.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,7 +237,7 @@
 		88DEE415295BCE4A00745690 = {
 			isa = PBXGroup;
 			children = (
-				88DEE420295BCE4A00745690 /* CTest */,
+				88DEE420295BCE4A00745690 /* Algorithm */,
 				88DEE41F295BCE4A00745690 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,14 +245,15 @@
 		88DEE41F295BCE4A00745690 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				88DEE41E295BCE4A00745690 /* CTest */,
+				88DEE41E295BCE4A00745690 /* Algorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		88DEE420295BCE4A00745690 /* CTest */ = {
+		88DEE420295BCE4A00745690 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				88FE7BA72997D4EA0020E79F /* io */,
 				88F2A01329971E4600394274 /* problem */,
 				88D31C53298B442700A131BA /* dp */,
 				88ACB7EC297102B800F9A1C0 /* graph */,
@@ -249,7 +271,7 @@
 				88DEE428295BCE5000745690 /* input */,
 				88DEE421295BCE4A00745690 /* main.cpp */,
 			);
-			path = CTest;
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		88DEE428295BCE5000745690 /* input */ = {
@@ -292,8 +314,29 @@
 				88F2A01E29973C0000394274 /* ReplaceWhiteSpaceChar.hpp */,
 				88F2A02029973CF200394274 /* Fibonacci.cpp */,
 				88F2A02129973CF200394274 /* Fibonacci.hpp */,
+				880913AC2998888000108391 /* MiniStack.cpp */,
+				880913AD2998888000108391 /* MiniStack.hpp */,
+				880913AF2998945100108391 /* StackOperateSequence.cpp */,
+				880913B02998945100108391 /* StackOperateSequence.hpp */,
+				880913B229989A8300108391 /* TreeLevelOrder.cpp */,
+				880913B329989A8300108391 /* TreeLevelOrder.hpp */,
+				888522F72999EBA900CB9D82 /* MergeSortedLinkList.cpp */,
+				888522F82999EBA900CB9D82 /* MergeSortedLinkList.hpp */,
+				888522FA299BBC5400CB9D82 /* LinkListOperator.cpp */,
+				888522FB299BBC5400CB9D82 /* LinkListOperator.hpp */,
+				888522FD299DF7BE00CB9D82 /* SingleNumber.cpp */,
+				888522FE299DF7BE00CB9D82 /* SingleNumber.hpp */,
 			);
 			path = problem;
+			sourceTree = "<group>";
+		};
+		88FE7BA72997D4EA0020E79F /* io */ = {
+			isa = PBXGroup;
+			children = (
+				88FE7BA82997D4FA0020E79F /* ReadWriteFile.cpp */,
+				88FE7BA92997D4FA0020E79F /* ReadWriteFile.hpp */,
+			);
+			path = io;
 			sourceTree = "<group>";
 		};
 		88FE852729625AEC00333CBD /* greedy */ = {
@@ -309,9 +352,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		88DEE41D295BCE4A00745690 /* CTest */ = {
+		88DEE41D295BCE4A00745690 /* Algorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88DEE425295BCE4A00745690 /* Build configuration list for PBXNativeTarget "CTest" */;
+			buildConfigurationList = 88DEE425295BCE4A00745690 /* Build configuration list for PBXNativeTarget "Algorithm" */;
 			buildPhases = (
 				88DEE41A295BCE4A00745690 /* Sources */,
 				88DEE41B295BCE4A00745690 /* Frameworks */,
@@ -321,9 +364,9 @@
 			);
 			dependencies = (
 			);
-			name = CTest;
+			name = Algorithm;
 			productName = CTest;
-			productReference = 88DEE41E295BCE4A00745690 /* CTest */;
+			productReference = 88DEE41E295BCE4A00745690 /* Algorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +383,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 88DEE419295BCE4A00745690 /* Build configuration list for PBXProject "CTest" */;
+			buildConfigurationList = 88DEE419295BCE4A00745690 /* Build configuration list for PBXProject "Algorithm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -353,7 +396,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				88DEE41D295BCE4A00745690 /* CTest */,
+				88DEE41D295BCE4A00745690 /* Algorithm */,
 			);
 		};
 /* End PBXProject section */
@@ -372,19 +415,26 @@
 				8871AE80295E7EED00F9D6C9 /* VectorTest.cpp in Sources */,
 				88EDD993296FAFB800832300 /* MapTest.cpp in Sources */,
 				88D31C56298B444500A131BA /* DPTest.cpp in Sources */,
+				88FE7BAA2997D4FA0020E79F /* ReadWriteFile.cpp in Sources */,
 				884C4A28295FD0D900E33559 /* StackTest.cpp in Sources */,
 				880038BB296E532800FE6549 /* QueueTest.cpp in Sources */,
+				888522FF299DF7BE00CB9D82 /* SingleNumber.cpp in Sources */,
 				88260A00296112AD00EF6934 /* PowerTest.cpp in Sources */,
 				88649B322963BFCE00B50ACC /* SearchTest.cpp in Sources */,
 				88DEE422295BCE4A00745690 /* main.cpp in Sources */,
 				88F2A019299726BB00394274 /* MultiBag.cpp in Sources */,
 				88260A062961259700EF6934 /* BigIntTest.cpp in Sources */,
+				888522F92999EBA900CB9D82 /* MergeSortedLinkList.cpp in Sources */,
+				880913AE2998888000108391 /* MiniStack.cpp in Sources */,
 				88F2A02229973CF200394274 /* Fibonacci.cpp in Sources */,
 				88F2A01C2997363000394274 /* RepeatNumber.cpp in Sources */,
 				88F2A01F29973C0000394274 /* ReplaceWhiteSpaceChar.cpp in Sources */,
 				8871AE7C295E6AE400F9D6C9 /* StringTest.cpp in Sources */,
+				880913B429989A8300108391 /* TreeLevelOrder.cpp in Sources */,
+				888522FC299BBC5400CB9D82 /* LinkListOperator.cpp in Sources */,
 				884C4A2D295FDC8700E33559 /* MathTest.cpp in Sources */,
 				8872D5E6296A693100B15D13 /* TreeTest.cpp in Sources */,
+				880913B12998945100108391 /* StackOperateSequence.cpp in Sources */,
 				88ACB7EF297102C700F9A1C0 /* GraphTest.cpp in Sources */,
 				88649B2E2963B16400B50ACC /* RecursionTest.cpp in Sources */,
 				88DEE42F295BE34800745690 /* EnumTest.cpp in Sources */,
@@ -526,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		88DEE419295BCE4A00745690 /* Build configuration list for PBXProject "CTest" */ = {
+		88DEE419295BCE4A00745690 /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88DEE423295BCE4A00745690 /* Debug */,
@@ -535,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		88DEE425295BCE4A00745690 /* Build configuration list for PBXNativeTarget "CTest" */ = {
+		88DEE425295BCE4A00745690 /* Build configuration list for PBXNativeTarget "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88DEE426295BCE4A00745690 /* Debug */,

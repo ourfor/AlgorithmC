@@ -59,7 +59,7 @@ public:
                 // std::cout << std::endl;
             }
             
-            int newStuffSize = newStuffs.size();
+            int newStuffSize = (int)newStuffs.size();
             int *bag = new int[bagCapacity + 1];
             for (int i = 0; i <= bagCapacity; i++) bag[i] = 0;
             for (int i = 0; i < newStuffSize; i++) {

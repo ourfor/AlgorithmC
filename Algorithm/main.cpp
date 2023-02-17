@@ -5,7 +5,7 @@
 //  Created by 梁甜 on 2022/12/28.
 //
 
-#include "DPTest.hpp"
+#include "ReadWriteFile.hpp"
 
 /// 牛客网考研专区
 /// @link https://www.nowcoder.com/ta/kaoyan
@@ -16,6 +16,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    mainBuyFood();
+    ReadWriteFile::write("/tmp/student.data");
+    ReadWriteFile::read("/tmp/student.data");
     return 0;
 }
